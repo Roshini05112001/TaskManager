@@ -1,0 +1,39 @@
+<!-- <p>sidebar works!</p> -->
+<div class="sidebar">
+  <button class="add-task-button">Add New Task</button>
+  <div class="tabs">
+    <button (click)="switchTab('my-tasks')" [class.active]="activeTab === 'my-tasks'">
+      <i class="far fa-envelope"></i> My Tasks
+    </button>
+    <button (click)="switchTab('important-tasks')" [class.active]="activeTab === 'important-tasks'">
+      <i class="far fa-star"></i> Important
+    </button>
+    <button (click)="switchTab('completed-tasks')" [class.active]="activeTab === 'completed-tasks'">
+      <i class="far fa-check-circle">
+      </i> Completed
+    </button>
+    <button (click)="switchTab('deleted-tasks')" [class.active]="activeTab === 'deleted-tasks'">
+      <i class="far fa-trash-alt"></i> Deleted
+    </button>
+  </div>
+  
+  <h1 class="tags-heading">TAGS</h1>
+  <div class="tags">
+    <button class="tag high">
+      <div class="tag-circle high-circle"></div> High
+    </button>
+    <button class="tag medium">
+      <div class="tag-circle medium-circle"></div> Medium
+    </button>
+    <button class="tag low">
+      <div class="tag-circle low-circle"></div> Low
+    </button>
+    <button class="tag blocked">
+      <div class="tag-circle blocked-circle"></div> Blocked
+    </button>
+    <button class="tag update">
+      <div class="tag-circle update-circle"></div> Update
+    </button>
+  </div>
+</div>
+  

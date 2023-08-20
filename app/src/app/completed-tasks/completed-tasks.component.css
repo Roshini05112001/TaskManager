@@ -1,0 +1,49 @@
+
+.completed-tasks-container {
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-bar i {
+  margin-right: 10px;
+  color: #888;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.task-item i {
+  margin-right: 10px;
+}
+
+.task-item .far.fa-check-circle {
+  color: green;
+  margin-right: 10px;
+}
+
+/* Your existing styles */

@@ -1,0 +1,88 @@
+{
+    "data": {
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Learn about Polymer",
+          "due_date": 1649625594000,
+          "deleted": false,
+          "owner": {
+            "id": 4,
+            "first": "Jacob",
+            "last": "Ramirez"
+          }
+        },
+        {
+          "id": 3,
+          "title": "Complete Presentation Prep for Aurelia presentation",
+          "due_date": 1649625594000,
+          "tags": ["blocked", "high"],
+          "completed": true,
+          "starred": false,
+          "deleted": false,
+          "owner": {
+            "id": 1,
+            "first": "Darlene",
+            "last": "Shields"
+          }
+        },
+        {
+          "id": 4,
+          "title": "Instrument Creation of development environment with Puppet",
+          "due_date": 1649625594000,
+          "tags": ["low"],
+          "completed": false,
+          "starred": false,
+          "deleted": false,
+          "owner": {
+            "id": 1,
+            "first": "Darlene",
+            "last": "Shields"
+          }
+        },
+        {
+          "id": 5,
+          "title": "Transition code base to ES6",
+          "due_date": 1649625594000,
+          "tags": ["low"],
+          "completed": false,
+          "starred": false,
+          "deleted": true,
+          "owner": {
+            "id": 1,
+            "first": "Darlene",
+            "last": "Shields"
+          }
+        },
+        {
+          "id": 6,
+          "title": "Zoom call with the client",
+          "due_date": 1649625594000,
+          "tags": ["medium"],
+          "completed": false,
+          "starred": true,
+          "deleted": false,
+          "owner": {
+            "id": 1,
+            "first": "Darlene",
+            "last": "Shields"
+          }
+        },
+        {
+          "id": 7,
+          "title": "Meet with the boss for coffee",
+          "due_date": 1652726394000,
+          "tags": ["high"],
+          "completed": false,
+          "starred": true,
+          "deleted": true,
+          "owner": {
+            "id": 1,
+            "first": "Darlene",
+            "last": "Shields"
+          }
+        }
+      ]
+    }
+  }
+  

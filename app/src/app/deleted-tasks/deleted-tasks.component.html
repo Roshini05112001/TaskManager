@@ -1,0 +1,15 @@
+<!-- <p>deleted-tasks works!</p> -->
+<div class="deleted-tasks-container">
+  <div class="search-bar">
+    <i class="fas fa-search"></i>
+    <input type="text" placeholder="Search Deleted Tasks" [(ngModel)]="searchText" (input)="searchTasks()" />
+  </div>
+  <div class="task-list">
+    <div class="task-item" *ngFor="let task of filteredDeletedTasks">
+      <i class="far fa-trash-alt"></i>
+      <div class="task-title">
+        <span>{{ task.title }}</span>
+      </div>
+    </div>
+  </div>
+</div>

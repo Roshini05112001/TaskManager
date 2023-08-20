@@ -1,0 +1,55 @@
+
+.starred {
+  color: green;
+  margin-right: 10px;
+}
+
+.important-tasks-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-bar i {
+  margin-right: 10px;
+  color: #888;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.task-list {
+  overflow-y: auto;
+}
+
+.task-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.star-icon {
+  margin-right: 10px;
+}
+

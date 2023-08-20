@@ -1,0 +1,97 @@
+/* Your existing styles */
+
+/* New styles for modifications */
+
+.starred,
+.completed {
+  color: green;
+}
+
+.my-tasks-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white; 
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-bar i {
+  margin-right: 10px;
+  color: #888;
+}
+
+.task-list {
+  overflow-y: auto;
+}
+
+.task-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items and due dates to end */
+}
+
+.star-icon,
+.check-circle-icon {
+  margin-right: 10px;
+}
+
+/* New styles for task content */
+
+.task-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Align text and tags/due date to end */
+}
+
+.task-text {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allow text to grow and take available space */
+}
+
+.task-tags-due {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Add space between text and tags/due date */
+}
+
+.task-tags {
+  display: flex;
+  align-items: center;
+}
+
+.tag {
+  background-color: #ccc;
+  color: white;
+  border-radius: 15px;
+  padding: 2px 8px;
+  margin-right: 5px;
+}
+
+.due-date {
+  font-size: 12px;
+  color: black;
+  font-weight: lighter;
+}
+
+
+

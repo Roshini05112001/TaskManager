@@ -1,0 +1,127 @@
+.sidebar {
+  background-color: white;
+  color: #333;
+  width: 250px;
+  height: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, 0.2); 
+}
+
+.add-task-button {
+  background-color: rgb(47, 162, 208);
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.tabs button,
+.tags button {
+  border: none;
+  background: none;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+
+.tags button {
+  margin-top: 0%;
+  padding: 2px;
+}
+
+.tabs button i,
+.tags button i {
+  margin-right: 10px;
+}
+
+.button.active {
+  background-color: #555;
+}
+
+.tags-heading {
+  margin-top: 10%;
+  font-size: medium;
+  margin-bottom: 2%;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px; /* Adjust margin as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.tag {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.tag-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.high-circle { background-color: #dc3545; }
+.medium-circle { background-color: #ffc107; }
+.low-circle { background-color: #17a2b8; }
+.blocked-circle { background-color: purple; }
+.update-circle { background-color: #28a745; }
+
+.tag i {
+  margin-right: 10px;
+}
+
+.high { color: #dc3545; }
+.medium { color: #ffc107; }
+.low { color: #17a2b8; }
+.blocked { color: purple; }
+.update { color: #28a745; }
+
+.bottom-tags {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin-top: auto;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.bottom-tags .tag {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.bottom-tags .tag-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.bottom-tags .tag i {
+  margin-right: 10px;
+}
+
+/* Outline for active buttons */
+.tabs button.active {
+  outline: 2px solid #28a745; /* Add outline for active button */
+}
+

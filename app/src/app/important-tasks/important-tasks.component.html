@@ -1,0 +1,19 @@
+
+  <div class="important-tasks-container">
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Search Important Tasks" [(ngModel)]="searchText" (input)="searchTasks()" />
+    </div>
+   
+    <div class="task-list">
+      <div class="task-item" *ngFor="let task of filteredImportantTasks">
+        <div class="task-content">
+          <div class="task-text">
+            <i class="star-icon" [ngClass]="task.starred ? 'fas fa-star starred' : 'far fa-star'"></i>
+            {{ task.title }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
